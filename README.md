@@ -1,13 +1,13 @@
 <h1>mangata-avs-node-tasima-</h1>
 
 ## 
-> cc: [ruesandora](https://github.com/ruesandora/mangata-AVS)https://github.com/ruesandora/mangata-AVS)
+> cc: [ ruesandora ](https://github.com/ruesandora/mangata-AVS)https://github.com/ruesandora/mangata-AVS)
 
 > Kendi node'umu taşırken size yardımcı olması için bir repo yaptım.
 Başlayalım.( Önceki kurulumunuz başarılı değilse bu repo sizin için uygun değildir. Lütfen Rues hocamın reposunu kullanın. )
 
 ```console
-# Öncelikle daha önceki sunucunuza hala erişebiliyorsanız şunları uygulayın.( Silinmiş ise bu adımı atlayabilirsiniz. )
+# Öncelikle eski sunucunuza bu komutları uygulayın.
 cd avs-operator-setup
 docker ps -a
 docker stop <containerid> ( tırnakları kaldırıp aldığımız iki adet container id'i ayrı ayrı komut olarak girelim. )
