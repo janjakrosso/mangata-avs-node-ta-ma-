@@ -65,15 +65,15 @@ nano /root/.eigenlayer/operator_keys/isminiz.ecdsa.key.json
 # burası açık kalsın
 
 # eski sunucumuza gidelim ve aşağıdaki komutu kendinize göre değiştirelim ve çalıştıralım.
-cat go build -o build/eigenlayer cmd/eigenlayer/main.go
+cat /root/.eigenlayer/operator_keys/isminiz.ecdsa.key.json
 # şimdi burada bize bir çıktı verecek bunu kopyalayıp hemen yukarıda yeni sunucumuzda açtığımız boş olan nano içine yapıştıralım. ( metinin başını ve sonunu dikkatli kopyalayın. )
-ctrl+x y enter diyerek çıkabiliriz.
+# ctrl+x y enter diyerek çıkabiliriz.
 # ecdsa key dosyamızı taşıdık. şimdi bls key dosyamızı taşıyoruz.
-# yeni sunucumuza geçelim.ve dosya yolumuzu kendimize göre düzenleyelim.
+# yeni sunucumuza geçelim ve dosya yolumuzu kendimize göre düzenleyelim.
 nano /root/.eigenlayer/operator_keys/isim.bls.key.json
 
 # eski sunucumuza gidelim ve aşağıdaki komutu kendimize göre düzenledikten sonra çalıştıralım.
-cat /root/.eigenlayer/operator_keys/.bls.key.json
+cat /root/.eigenlayer/operator_keys/isim.bls.key.json
 # bize verdiği çıktıyı dikkatli bir şekilde kopyalayalım ve yeni sunucumuzda az önce açtığımız nano dosyasının içine yapıştıralım.
 # keylerimizi taşımış olduk şimdi devam edelim.
 ```
