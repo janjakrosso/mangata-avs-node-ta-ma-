@@ -1,8 +1,9 @@
 <h1>mangata-avs-node-tasima-</h1>
 
-## cc: [@ruesandora](https://github.com/ruesandora/mangata-AVS)https://github.com/ruesandora/mangata-AVS)
+## 
+> cc: [ruesandora](https://github.com/ruesandora/mangata-AVS)https://github.com/ruesandora/mangata-AVS)
 
-Kendi node'umu taşırken size yardımcı olması için bir repo yaptım.
+> Kendi node'umu taşırken size yardımcı olması için bir repo yaptım.
 Başlayalım.( Önceki kurulumunuz başarılı değilse bu repo sizin için uygun değildir. Lütfen Rues hocamın reposunu kullanın. )
 
 ```console
