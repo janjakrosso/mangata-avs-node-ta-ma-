@@ -65,7 +65,7 @@ nano /root/.eigenlayer/operator_keys/isminiz.ecdsa.key.json
 # burası açık kalsın
 
 # eski sunucumuza gidelim ve aşağıdaki komutu kendinize göre değiştirelim ve çalıştıralım.
-cat /root/.eigenlayer/operator_keys/isminiz.ecdsa.key.json
+ cat /root/.eigenlayer/operator_keys/isminiz.ecdsa.key.json
 # şimdi burada bize bir çıktı verecek bunu kopyalayıp hemen yukarıda yeni sunucumuzda açtığımız boş olan nano içine yapıştıralım. ( metinin başını ve sonunu dikkatli kopyalayın. )
 # ctrl+x y enter diyerek çıkabiliriz.
 # ecdsa key dosyamızı taşıdık. şimdi bls key dosyamızı taşıyoruz.
