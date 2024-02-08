@@ -57,7 +57,8 @@ cd
 sudo cp eigenlayer-cli/build/eigenlayer /usr/local/bin/
 ```
 
-<h1> Simdi burada önemli bir kısım var. Burayı dikkatli yapalım. </h1>
+<h2> Simdi burada önemli bir kısım var. Burayı dikkatli yapalım. </h2>
+
 ```console
 # dosya yolunu kendinize göre düzenleyin.
 nano /root/.eigenlayer/operator_keys/isminiz.ecdsa.key.json
