@@ -55,6 +55,7 @@ go build -o build/eigenlayer cmd/eigenlayer/main.go
 # Binary dosyamızı PATH yoluna gönderiyoruz
 cd
 sudo cp eigenlayer-cli/build/eigenlayer /usr/local/bin/
+mkdir -p /root/.eigenlayer/operator_keys
 ```
 
 <h2> Simdi burada önemli bir kısım var. Burayı dikkatli yapalım. </h2>
