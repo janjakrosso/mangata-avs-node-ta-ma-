@@ -56,8 +56,9 @@ go build -o build/eigenlayer cmd/eigenlayer/main.go
 cd
 sudo cp eigenlayer-cli/build/eigenlayer /usr/local/bin/
 ```
-```console
+
 <h1> Simdi burada önemli bir kısım var. Burayı dikkatli yapalım. </h1>
+```console
 # dosya yolunu kendinize göre düzenleyin.
 nano /root/.eigenlayer/operator_keys/isminiz.ecdsa.key.json
 # burası açık kalsın
