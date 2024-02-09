@@ -76,6 +76,9 @@ nano /root/.eigenlayer/operator_keys/isim.bls.key.json
 # eski sunucumuza gidelim ve aşağıdaki komutu kendimize göre düzenledikten sonra çalıştıralım.
 cat /root/.eigenlayer/operator_keys/isim.bls.key.json
 # bize verdiği çıktıyı dikkatli bir şekilde kopyalayalım ve yeni sunucumuzda az önce açtığımız nano dosyasının içine yapıştıralım.
+# bu komut ile keylerimizi kontrol edelim.doğru ise devam.
+eigenlayer operator keys list
+
 # keylerimizi taşımış olduk şimdi devam edelim.
 ```
 Operator kaydı
